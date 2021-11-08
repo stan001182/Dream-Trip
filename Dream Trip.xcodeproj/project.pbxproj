@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31AD71827398ED800E24E71 /* MapViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31AD71727398ED800E24E71 /* MapViewController1.swift */; };
 		E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */; };
 		E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */; };
 		E35A9F7A27302ABB00A0F4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7927302ABB00A0F4DC /* ViewController.swift */; };
 		E35A9F7D27302ABB00A0F4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F7B27302ABB00A0F4DC /* Main.storyboard */; };
 		E35A9F7F27302ABC00A0F4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */; };
 		E35A9F8227302ABC00A0F4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */; };
+		E36CA15327391CEE00330C8A /* MoreTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36CA15227391CEE00330C8A /* MoreTableViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E31AD71727398ED800E24E71 /* MapViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController1.swift; sourceTree = "<group>"; };
 		E35A9F7227302ABB00A0F4DC /* Dream Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35A9F8127302ABC00A0F4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35A9F8327302ABC00A0F4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36CA15227391CEE00330C8A /* MoreTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,81 @@
 		E35A9F7427302ABB00A0F4DC /* Dream Trip */ = {
 			isa = PBXGroup;
 			children = (
-				E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */,
-				E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */,
-				E35A9F7927302ABB00A0F4DC /* ViewController.swift */,
-				E35A9F7B27302ABB00A0F4DC /* Main.storyboard */,
-				E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */,
-				E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */,
+				E36CA14D273917A500330C8A /* model */,
+				E36CA14F2739180100330C8A /* view */,
+				E36CA14E273917CA00330C8A /* resoure */,
+				E36CA1472739105200330C8A /* explore */,
+				E36CA1482739106200330C8A /* map */,
+				E36CA1492739107500330C8A /* trip */,
+				E36CA14A2739108000330C8A /* monitor */,
+				E36CA14627390E5500330C8A /* more */,
 				E35A9F8327302ABC00A0F4DC /* Info.plist */,
 			);
 			path = "Dream Trip";
+			sourceTree = "<group>";
+		};
+		E36CA14627390E5500330C8A /* more */ = {
+			isa = PBXGroup;
+			children = (
+				E36CA15227391CEE00330C8A /* MoreTableViewController1.swift */,
+			);
+			name = more;
+			sourceTree = "<group>";
+		};
+		E36CA1472739105200330C8A /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7927302ABB00A0F4DC /* ViewController.swift */,
+			);
+			name = explore;
+			sourceTree = "<group>";
+		};
+		E36CA1482739106200330C8A /* map */ = {
+			isa = PBXGroup;
+			children = (
+				E31AD71727398ED800E24E71 /* MapViewController1.swift */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		E36CA1492739107500330C8A /* trip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = trip;
+			sourceTree = "<group>";
+		};
+		E36CA14A2739108000330C8A /* monitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = monitor;
+			sourceTree = "<group>";
+		};
+		E36CA14D273917A500330C8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */,
+				E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E36CA14E273917CA00330C8A /* resoure */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */,
+			);
+			name = resoure;
+			sourceTree = "<group>";
+		};
+		E36CA14F2739180100330C8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E35A9F7B27302ABB00A0F4DC /* Main.storyboard */,
+				E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +211,8 @@
 				E35A9F7A27302ABB00A0F4DC /* ViewController.swift in Sources */,
 				E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */,
 				E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */,
+				E31AD71827398ED800E24E71 /* MapViewController1.swift in Sources */,
+				E36CA15327391CEE00330C8A /* MoreTableViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +363,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dream Trip/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,6 +393,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dream Trip/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
