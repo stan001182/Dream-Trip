@@ -8,7 +8,7 @@
 import UIKit
 import CoreLocation
 
-class MapViewController1: UIViewController, CLLocationManagerDelegate {
+class MapVC1: UIViewController, CLLocationManagerDelegate {
 
     let lm = CLLocationManager()
     
@@ -22,7 +22,7 @@ class MapViewController1: UIViewController, CLLocationManagerDelegate {
         
         lm.delegate = self
         lm.startUpdatingLocation()
-                
+        print("開始定位使用者位置")
             }
         func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
@@ -32,7 +32,7 @@ class MapViewController1: UIViewController, CLLocationManagerDelegate {
                     print("高度：\(location.altitude)")
     
         lm.stopUpdatingLocation()
-        
+        print("停止定位使用者位置")
         }
         
     }

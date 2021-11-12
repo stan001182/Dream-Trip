@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5E49C961-6A8F-49D7-8FA2-71F4450D70CE</key>
+		<key>4F2100A3-F010-4882-A24C-2D2F7804838F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5E49C961-6A8F-49D7-8FA2-71F4450D70CE.xcactivitylog</string>
+			<string>4F2100A3-F010-4882-A24C-2D2F7804838F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658084467.08108306</real>
+			<real>658424503.66992605</real>
 			<key>timeStoppedRecording</key>
-			<real>658084499.57416701</real>
+			<real>658425341.77168</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>5E49C961-6A8F-49D7-8FA2-71F4450D70CE</string>
+			<string>4F2100A3-F010-4882-A24C-2D2F7804838F</string>
 		</dict>
 	</dict>
 </dict>
