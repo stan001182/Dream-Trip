@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6417A190-CE0A-4320-9BDA-82CFF0741B48</key>
+		<key>D4E86C74-BBCC-4576-A0BC-DC4297453C89</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>6417A190-CE0A-4320-9BDA-82CFF0741B48.xcactivitylog</string>
+			<string>D4E86C74-BBCC-4576-A0BC-DC4297453C89.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -24,15 +24,15 @@
 				<string>W</string>
 			</dict>
 			<key>signature</key>
-			<string>Dream_Trip-aqchpivtxkxwquhaotujritqtlfr</string>
+			<string>Dream_Trip-hhkzwrmlyfdfhrfvqekrdtqgnhqa</string>
 			<key>timeStartedRecording</key>
-			<real>658424503.14061797</real>
+			<real>658477786.16214001</real>
 			<key>timeStoppedRecording</key>
-			<real>658424503.66710806</real>
+			<real>658477787.79457402</real>
 			<key>title</key>
 			<string>Build target Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>6417A190-CE0A-4320-9BDA-82CFF0741B48</string>
+			<string>D4E86C74-BBCC-4576-A0BC-DC4297453C89</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

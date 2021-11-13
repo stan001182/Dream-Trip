@@ -9,21 +9,14 @@ import UIKit
 
 class MoreVC1: UIViewController {
 
-    var aaa: String?
     
-    var bbb: UIImage?
-    
-    @IBOutlet weak var test2: UILabel!
-    
-    @IBOutlet weak var myview2: UIImageView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        test2.text = aaa
-        myview2.image = bbb
+        
     }
     
 

@@ -6,12 +6,11 @@
 //
 
 import UIKit
+import MessageUI
 
-class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMailComposeViewControllerDelegate {
 
-    @IBOutlet weak var myview: UIImageView!
     
-    @IBOutlet weak var test: UILabel!
     //    var moreList = [
     //    ("star.fill", "給好評！"),
     //    ("square.and.arrow.up", "分享"),
@@ -68,13 +67,51 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
          func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
              if indexPath.row == 1{
-                 let activityViewController = UIActivityViewController(activityItems: ["我想要與您分享此款好用的APP！!https://www.google.com"], applicationActivities: nil)
+                 let activityViewController = UIActivityViewController(activityItems: ["我想要與您分享此款好用的APP！! 這裡放app下載的URL"], applicationActivities: nil)
                  self.present(activityViewController, animated: true, completion: nil)
-             }else{
-                 self.performSegue(withIdentifier: String(indexPath.row), sender: nil)
              }
+             else if indexPath.row == 4{
+                 guard MFMailComposeViewController.canSendMail() else {
+                     print("Mail services are not available")
+                     return
+                 }
+                     let composer = MFMailComposeViewController()
+                     composer.mailComposeDelegate = self
+                     composer.setToRecipients(["dream_trip@gmail.com"])         //收件人
+                     composer.setSubject("HI,dream_trip")                          //標題
+                     composer.setMessageBody("I wanna travel all over the world ", isHTML: false)  //內容
+                 self.present(composer, animated: true)
+                 }
+             else{
+                     self.performSegue(withIdentifier: String(indexPath.row), sender: nil)
+                 }
+             
              print("點選了第：\(indexPath.row) row")
              print("點選了：\(moreList[indexPath.row].0) ")
+             }
+    func mailComposeController(
+        _ controller: MFMailComposeViewController,
+        didFinishWith result: MFMailComposeResult, error: Error?){
+            controller.mailComposeDelegate = self
+            if let _ = error{
+                controller.dismiss(animated: true, completion: nil)
+                return
+            }
+            switch result{
+            case .cancelled:
+                print("cancelled")
+            case .failed:
+                print("faild to mail")
+            case .saved:
+                print("saved")
+            case .sent:
+                print("sent")
+            @unknown default:
+                fatalError()
+            }
+            controller.dismiss(animated: true, completion: nil)
+    }
+             
         }
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if segue.identifier == String(0){
@@ -84,7 +121,7 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 //            }
 //    }
     
-}
+
        
         
     
