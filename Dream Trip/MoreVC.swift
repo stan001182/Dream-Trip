@@ -25,7 +25,7 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
         ("star", "給好評！"),
         ("share", "分享"),
         ("setting", "設定"),
-        ("notify", "通知"),
+        ("info", "關於"),
         ("contact", "與我們聯絡"),
         ("facebook", "Facebook粉絲頁"),
         ]
@@ -82,6 +82,11 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
                      composer.setMessageBody("I wanna travel all over the world ", isHTML: false)  //內容
                  self.present(composer, animated: true)
                  }
+             else if indexPath.row == 5{
+                 if let url = URL(string:"https://www.facebook.com/"){
+                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                 }
+             }
              else{
                      self.performSegue(withIdentifier: String(indexPath.row), sender: nil)
                  }

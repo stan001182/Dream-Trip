@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E31AD71827398ED800E24E71 /* MapVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31AD71727398ED800E24E71 /* MapVC1.swift */; };
+		E32B69A7273FBDAB00A195A9 /* MoreVC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B69A6273FBDAB00A195A9 /* MoreVC6.swift */; };
 		E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */; };
 		E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */; };
 		E35A9F7A27302ABB00A0F4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A9F7927302ABB00A0F4DC /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E31AD71727398ED800E24E71 /* MapVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC1.swift; sourceTree = "<group>"; };
+		E32B69A6273FBDAB00A195A9 /* MoreVC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC6.swift; sourceTree = "<group>"; };
 		E35A9F7227302ABB00A0F4DC /* Dream Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A9F7527302ABB00A0F4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A9F7727302ABB00A0F4DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E36CA14F2739180100330C8A /* view */,
 				E36CA14E273917CA00330C8A /* resoure */,
 				E35A9F8327302ABC00A0F4DC /* Info.plist */,
+				E32B69A6273FBDAB00A195A9 /* MoreVC6.swift */,
 			);
 			path = "Dream Trip";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				E35A9F7A27302ABB00A0F4DC /* ViewController.swift in Sources */,
 				E3D169BB273ABB1A00788B3D /* MoreVC.swift in Sources */,
+				E32B69A7273FBDAB00A195A9 /* MoreVC6.swift in Sources */,
 				E3B14691273BBADB00CE7192 /* MoreVC1.swift in Sources */,
 				E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */,
 				E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */,

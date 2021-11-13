@@ -518,7 +518,7 @@
             </objects>
             <point key="canvasLocation" x="-1268" y="4367"/>
         </scene>
-        <!--View Controller-->
+        <!--關於-->
         <scene sceneID="kJX-vz-5v9">
             <objects>
                 <viewController id="0nD-Yy-wAf" sceneMemberID="viewController">
@@ -526,22 +526,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfe-V5-sKC">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="關於Dream Trip" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRE-7J-OYS">
+                                <rect key="frame" x="20" y="98" width="374" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQV-o2-wm6">
+                                <rect key="frame" x="20" y="171" width="374" height="632"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">近年來由於社群媒體的發達，許多人尤其是年輕一輩，似乎對於到各個景點或是秘境拍照打卡蔚為瘋狂，促使著整個旅遊休閒的需求與日俱增，因此想設計一個可以幫助大家對旅遊規劃記事功能的app。我們希望還能幫助大家隨時監控家裡狀態，讓大家可以放心的旅遊。
+
+
+此App可記錄各項食衣住行等資訊，並即時同步儲存在資料庫，也有列表，加總，擷取等功能。
+
+
+此App可透過雲端平台讀取已佈設之MCU感測器所傳送之紀錄，並可傳送參數指令，進而控制已連結之設備。
+
+
+作者: 葉正青 、曾建豪、黃郁翔
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dAI-FD-Psf"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="C7Q-pu-g7v"/>
+                    <navigationItem key="navigationItem" title="關於" id="C7Q-pu-g7v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyE-AA-33W" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="4367"/>
+            <point key="canvasLocation" x="718.84057971014499" y="4366.7410714285716"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rq3-Qy-1l7">
@@ -568,26 +587,17 @@
             </objects>
             <point key="canvasLocation" x="1675" y="4367"/>
         </scene>
-        <!--View Controller-->
+        <!--Facebook-->
         <scene sceneID="RwS-pA-GrK">
             <objects>
                 <viewController id="3qd-2F-VEU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xwo-FR-20j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxE-JY-wfz">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yMk-fl-RNg"/>
-                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AFu-Wk-MxW"/>
+                    <navigationItem key="navigationItem" title="Facebook" id="AFu-Wk-MxW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9L8-nO-sI8" sceneMemberID="firstResponder"/>
             </objects>
@@ -610,9 +620,6 @@
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -621,9 +628,6 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
