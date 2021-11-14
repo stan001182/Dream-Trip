@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MoreVC1: UIViewController {
+class MoreVC0: UIViewController {
 
     
     

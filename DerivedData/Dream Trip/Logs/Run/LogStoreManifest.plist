@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>285E92F9-CF9B-4D8E-A2F2-456B1C647309</key>
+		<key>0B209983-31BB-4E7A-A277-85A0DE1AFF7F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>285E92F9-CF9B-4D8E-A2F2-456B1C647309.xcactivitylog</string>
+			<string>0B209983-31BB-4E7A-A277-85A0DE1AFF7F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489654.34221601</real>
+			<real>658558949.708233</real>
 			<key>timeStoppedRecording</key>
-			<real>658489664.16204298</real>
+			<real>658559008.02006805</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>285E92F9-CF9B-4D8E-A2F2-456B1C647309</string>
+			<string>0B209983-31BB-4E7A-A277-85A0DE1AFF7F</string>
 		</dict>
-		<key>3A3286AC-176D-4F80-9B78-198AEC7A0825</key>
+		<key>0BBE61DE-9873-4204-84E6-C64343408079</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3A3286AC-176D-4F80-9B78-198AEC7A0825.xcactivitylog</string>
+			<string>0BBE61DE-9873-4204-84E6-C64343408079.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658491045.38603306</real>
+			<real>658511538.99280798</real>
 			<key>timeStoppedRecording</key>
-			<real>658491802.34705901</real>
+			<real>658511556.44769597</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>3A3286AC-176D-4F80-9B78-198AEC7A0825</string>
+			<string>0BBE61DE-9873-4204-84E6-C64343408079</string>
 		</dict>
-		<key>42E2ACFD-E653-4312-8491-D6AFB6F8C155</key>
+		<key>17152B54-8188-4E07-ADB3-EA655B66CA71</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>42E2ACFD-E653-4312-8491-D6AFB6F8C155.xcactivitylog</string>
+			<string>17152B54-8188-4E07-ADB3-EA655B66CA71.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658490136.39993405</real>
+			<real>658570235.23368704</real>
 			<key>timeStoppedRecording</key>
-			<real>658490146.40969801</real>
+			<real>658570287.262393</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>42E2ACFD-E653-4312-8491-D6AFB6F8C155</string>
+			<string>17152B54-8188-4E07-ADB3-EA655B66CA71</string>
 		</dict>
-		<key>491657B1-350C-43BB-AED7-F0AE99497976</key>
+		<key>22DB09CB-9909-42C2-9217-32C703F3ED9B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>491657B1-350C-43BB-AED7-F0AE99497976.xcactivitylog</string>
+			<string>22DB09CB-9909-42C2-9217-32C703F3ED9B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658498969.65145695</real>
+			<real>658559804.88419294</real>
 			<key>timeStoppedRecording</key>
-			<real>658499300.51717103</real>
+			<real>658559832.84728706</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>491657B1-350C-43BB-AED7-F0AE99497976</string>
+			<string>22DB09CB-9909-42C2-9217-32C703F3ED9B</string>
 		</dict>
-		<key>4A3F6533-228F-498E-B756-9741CA08CF4C</key>
+		<key>25550C07-E413-4E41-9025-E61DE7147CFC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4A3F6533-228F-498E-B756-9741CA08CF4C.xcactivitylog</string>
+			<string>25550C07-E413-4E41-9025-E61DE7147CFC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489774.17598295</real>
+			<real>658570118.20515501</real>
 			<key>timeStoppedRecording</key>
-			<real>658490134.669752</real>
+			<real>658570216.64816701</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>4A3F6533-228F-498E-B756-9741CA08CF4C</string>
+			<string>25550C07-E413-4E41-9025-E61DE7147CFC</string>
 		</dict>
-		<key>4C922832-845D-4903-9022-2F44877F0636</key>
+		<key>2F692971-AF88-4C78-9EAC-A0286620D2E7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4C922832-845D-4903-9022-2F44877F0636.xcactivitylog</string>
+			<string>2F692971-AF88-4C78-9EAC-A0286620D2E7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658492153.21878195</real>
+			<real>658559870.17044902</real>
 			<key>timeStoppedRecording</key>
-			<real>658492189.46549797</real>
+			<real>658559881.77017903</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>4C922832-845D-4903-9022-2F44877F0636</string>
+			<string>2F692971-AF88-4C78-9EAC-A0286620D2E7</string>
 		</dict>
-		<key>56936BB2-E31C-47FC-A919-E0DED6FC5A1C</key>
+		<key>31ED6830-8FA8-429B-B173-B05B099D8DA2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>56936BB2-E31C-47FC-A919-E0DED6FC5A1C.xcactivitylog</string>
+			<string>31ED6830-8FA8-429B-B173-B05B099D8DA2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658492282.54604197</real>
+			<real>658559916.17731202</real>
 			<key>timeStoppedRecording</key>
-			<real>658492983.30959797</real>
+			<real>658559931.80841196</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>56936BB2-E31C-47FC-A919-E0DED6FC5A1C</string>
+			<string>31ED6830-8FA8-429B-B173-B05B099D8DA2</string>
 		</dict>
-		<key>59E23E2E-C557-4C74-90B8-7614D0B69941</key>
+		<key>36260B4D-CCF9-4AC9-A134-28A15B7CD748</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>59E23E2E-C557-4C74-90B8-7614D0B69941.xcactivitylog</string>
+			<string>36260B4D-CCF9-4AC9-A134-28A15B7CD748.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658490847.44834197</real>
+			<real>658560508.00314105</real>
 			<key>timeStoppedRecording</key>
-			<real>658490983.96946597</real>
+			<real>658560521.34893501</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>59E23E2E-C557-4C74-90B8-7614D0B69941</string>
+			<string>36260B4D-CCF9-4AC9-A134-28A15B7CD748</string>
 		</dict>
-		<key>66B77982-7489-43BA-91E5-A141B300F5D5</key>
+		<key>38F52606-B9D5-4D1B-958C-12B07BBB1EE4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>66B77982-7489-43BA-91E5-A141B300F5D5.xcactivitylog</string>
+			<string>38F52606-B9D5-4D1B-958C-12B07BBB1EE4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658497407.35480797</real>
+			<real>658569934.21045196</real>
 			<key>timeStoppedRecording</key>
-			<real>658497425.85745394</real>
+			<real>658570000.764395</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>66B77982-7489-43BA-91E5-A141B300F5D5</string>
+			<string>38F52606-B9D5-4D1B-958C-12B07BBB1EE4</string>
 		</dict>
-		<key>6B559C73-1AF2-4A05-AF84-B188AA11C2AA</key>
+		<key>4A5CC743-AF19-4880-8427-165D7A6F1EEB</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6B559C73-1AF2-4A05-AF84-B188AA11C2AA.xcactivitylog</string>
+			<string>4A5CC743-AF19-4880-8427-165D7A6F1EEB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489081.66073406</real>
+			<real>658565610.81713104</real>
 			<key>timeStoppedRecording</key>
-			<real>658489249.58192801</real>
+			<real>658566025.27164197</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>6B559C73-1AF2-4A05-AF84-B188AA11C2AA</string>
+			<string>4A5CC743-AF19-4880-8427-165D7A6F1EEB</string>
 		</dict>
-		<key>71BF2FB0-44B5-4C6D-817D-953E1136E4E3</key>
+		<key>4F38B938-038D-409C-819F-C9AF46F1299D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>71BF2FB0-44B5-4C6D-817D-953E1136E4E3.xcactivitylog</string>
+			<string>4F38B938-038D-409C-819F-C9AF46F1299D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658488855.37688804</real>
+			<real>658566033.47753</real>
 			<key>timeStoppedRecording</key>
-			<real>658489010.90246701</real>
+			<real>658569796.36155498</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>71BF2FB0-44B5-4C6D-817D-953E1136E4E3</string>
+			<string>4F38B938-038D-409C-819F-C9AF46F1299D</string>
 		</dict>
-		<key>75D375E7-243B-499A-9D04-25E39CCECBD9</key>
+		<key>56F1B2DB-3F60-4A09-99B0-10C5F5F9CB3B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>75D375E7-243B-499A-9D04-25E39CCECBD9.xcactivitylog</string>
+			<string>56F1B2DB-3F60-4A09-99B0-10C5F5F9CB3B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658492146.21292305</real>
+			<real>658560581.62767899</real>
 			<key>timeStoppedRecording</key>
-			<real>658492148.10255206</real>
+			<real>658562873.38473797</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>75D375E7-243B-499A-9D04-25E39CCECBD9</string>
+			<string>56F1B2DB-3F60-4A09-99B0-10C5F5F9CB3B</string>
 		</dict>
-		<key>76291EB5-F241-4FF8-B4CB-C1BE231FA0F8</key>
+		<key>6DCB848A-2852-49E6-8C3F-E10B44CBBE1B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>76291EB5-F241-4FF8-B4CB-C1BE231FA0F8.xcactivitylog</string>
+			<string>6DCB848A-2852-49E6-8C3F-E10B44CBBE1B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658490984.96824896</real>
+			<real>658559215.97664404</real>
 			<key>timeStoppedRecording</key>
-			<real>658491044.31941402</real>
+			<real>658559226.48672998</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>76291EB5-F241-4FF8-B4CB-C1BE231FA0F8</string>
+			<string>6DCB848A-2852-49E6-8C3F-E10B44CBBE1B</string>
 		</dict>
-		<key>797313DE-0DB9-4DEF-B353-F95186CBF787</key>
+		<key>89D8DA24-30B7-4B24-A08D-B06DC95A321E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>797313DE-0DB9-4DEF-B353-F95186CBF787.xcactivitylog</string>
+			<string>89D8DA24-30B7-4B24-A08D-B06DC95A321E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658492987.69931996</real>
+			<real>658559126.78266096</real>
 			<key>timeStoppedRecording</key>
-			<real>658493277.80199695</real>
+			<real>658559131.17276895</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>797313DE-0DB9-4DEF-B353-F95186CBF787</string>
+			<string>89D8DA24-30B7-4B24-A08D-B06DC95A321E</string>
 		</dict>
-		<key>79EB6E2E-8F3A-4E2F-8D40-B1E36607E8E4</key>
+		<key>8AF13442-58C5-4585-B646-ECBEE9F739AA</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>79EB6E2E-8F3A-4E2F-8D40-B1E36607E8E4.xcactivitylog</string>
+			<string>8AF13442-58C5-4585-B646-ECBEE9F739AA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658477787.79714704</real>
+			<real>658570032.44751</real>
 			<key>timeStoppedRecording</key>
-			<real>658477848.17426598</real>
+			<real>658570051.76976299</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>79EB6E2E-8F3A-4E2F-8D40-B1E36607E8E4</string>
+			<string>8AF13442-58C5-4585-B646-ECBEE9F739AA</string>
 		</dict>
-		<key>895EC49F-D650-4F25-B127-B07CA80797A9</key>
+		<key>A42E06EC-DF4D-46C0-8973-75E6352C0912</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>895EC49F-D650-4F25-B127-B07CA80797A9.xcactivitylog</string>
+			<string>A42E06EC-DF4D-46C0-8973-75E6352C0912.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489618.91962004</real>
+			<real>658559790.22226095</real>
 			<key>timeStoppedRecording</key>
-			<real>658489644.83892095</real>
+			<real>658559795.69923103</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>895EC49F-D650-4F25-B127-B07CA80797A9</string>
+			<string>A42E06EC-DF4D-46C0-8973-75E6352C0912</string>
 		</dict>
-		<key>99A4C70E-7048-4279-946E-1EC3D95F4E0A</key>
+		<key>C71D7AE6-90F6-4CBB-A8F7-EEDF5EAB2209</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>99A4C70E-7048-4279-946E-1EC3D95F4E0A.xcactivitylog</string>
+			<string>C71D7AE6-90F6-4CBB-A8F7-EEDF5EAB2209.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658493538.42049396</real>
+			<real>658570086.45350397</real>
 			<key>timeStoppedRecording</key>
-			<real>658493552.64469695</real>
+			<real>658570108.51039398</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>99A4C70E-7048-4279-946E-1EC3D95F4E0A</string>
+			<string>C71D7AE6-90F6-4CBB-A8F7-EEDF5EAB2209</string>
 		</dict>
-		<key>A4B8DC30-20C7-4F1F-82ED-5A28B1DC942B</key>
+		<key>D0C7405A-5AB5-4E93-A5B7-A7511C7158C7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A4B8DC30-20C7-4F1F-82ED-5A28B1DC942B.xcactivitylog</string>
+			<string>D0C7405A-5AB5-4E93-A5B7-A7511C7158C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658496717.47740996</real>
+			<real>658559275.10577202</real>
 			<key>timeStoppedRecording</key>
-			<real>658496738.40599</real>
+			<real>658559786.491135</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>A4B8DC30-20C7-4F1F-82ED-5A28B1DC942B</string>
+			<string>D0C7405A-5AB5-4E93-A5B7-A7511C7158C7</string>
 		</dict>
-		<key>A789D506-B3FA-44D5-848E-AF018A761465</key>
+		<key>E02122A1-7F48-4C49-B9E0-DFD67A6C8BB3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A789D506-B3FA-44D5-848E-AF018A761465.xcactivitylog</string>
+			<string>E02122A1-7F48-4C49-B9E0-DFD67A6C8BB3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489252.10031104</real>
+			<real>658560522.37628698</real>
 			<key>timeStoppedRecording</key>
-			<real>658489306.09950602</real>
+			<real>658560532.04350102</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>A789D506-B3FA-44D5-848E-AF018A761465</string>
+			<string>E02122A1-7F48-4C49-B9E0-DFD67A6C8BB3</string>
 		</dict>
-		<key>AB777A78-9458-4B37-AF59-1F6B200A0F5D</key>
+		<key>E5E605E6-E142-4282-AE37-72FDD94E76C6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AB777A78-9458-4B37-AF59-1F6B200A0F5D.xcactivitylog</string>
+			<string>E5E605E6-E142-4282-AE37-72FDD94E76C6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658499303.25391603</real>
+			<real>658565408.284199</real>
 			<key>timeStoppedRecording</key>
-			<real>658499311.98950005</real>
+			<real>658565432.25360203</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>AB777A78-9458-4B37-AF59-1F6B200A0F5D</string>
+			<string>E5E605E6-E142-4282-AE37-72FDD94E76C6</string>
 		</dict>
-		<key>B52FA34A-FF3A-4468-9376-4F406A450CA0</key>
+		<key>EEE24DB6-F46E-4713-A54E-BD5FA8D342CF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B52FA34A-FF3A-4468-9376-4F406A450CA0.xcactivitylog</string>
+			<string>EEE24DB6-F46E-4713-A54E-BD5FA8D342CF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658493280.695575</real>
+			<real>658571764.432338</real>
 			<key>timeStoppedRecording</key>
-			<real>658493537.19952095</real>
+			<real>658571808.327636</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>B52FA34A-FF3A-4468-9376-4F406A450CA0</string>
+			<string>EEE24DB6-F46E-4713-A54E-BD5FA8D342CF</string>
 		</dict>
-		<key>C69A283B-032E-4375-9FB7-0F6762894C26</key>
+		<key>F103EA6B-95A0-4951-8B7C-EF62C45E7656</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C69A283B-032E-4375-9FB7-0F6762894C26.xcactivitylog</string>
+			<string>F103EA6B-95A0-4951-8B7C-EF62C45E7656.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658489443.21050203</real>
+			<real>658559098.08769</real>
 			<key>timeStoppedRecording</key>
-			<real>658489454.92775905</real>
+			<real>658559109.29806697</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>C69A283B-032E-4375-9FB7-0F6762894C26</string>
+			<string>F103EA6B-95A0-4951-8B7C-EF62C45E7656</string>
 		</dict>
-		<key>CB96D853-4A9A-46AA-8899-5FF77EB83911</key>
+		<key>FCFCD9AE-8AE0-48DE-9F1A-AB28999ADAE6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CB96D853-4A9A-46AA-8899-5FF77EB83911.xcactivitylog</string>
+			<string>FCFCD9AE-8AE0-48DE-9F1A-AB28999ADAE6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,183 +780,13 @@
 			<key>signature</key>
 			<string>Run Dream Trip</string>
 			<key>timeStartedRecording</key>
-			<real>658492001.19314396</real>
+			<real>658565432.89417899</real>
 			<key>timeStoppedRecording</key>
-			<real>658492006.61994898</real>
+			<real>658565605.445418</real>
 			<key>title</key>
 			<string>Run Dream Trip</string>
 			<key>uniqueIdentifier</key>
-			<string>CB96D853-4A9A-46AA-8899-5FF77EB83911</string>
-		</dict>
-		<key>CCBC9230-CB27-48A3-B511-B69F9EC0809F</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>CCBC9230-CB27-48A3-B511-B69F9EC0809F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658488841.96542001</real>
-			<key>timeStoppedRecording</key>
-			<real>658488848.41847396</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>CCBC9230-CB27-48A3-B511-B69F9EC0809F</string>
-		</dict>
-		<key>DAC34B03-3631-4182-8178-4ECCCD0910D3</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>DAC34B03-3631-4182-8178-4ECCCD0910D3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658489307.58398604</real>
-			<key>timeStoppedRecording</key>
-			<real>658489387.11353195</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>DAC34B03-3631-4182-8178-4ECCCD0910D3</string>
-		</dict>
-		<key>EB1A5217-126B-47CF-963B-414DB007629E</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>EB1A5217-126B-47CF-963B-414DB007629E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658497609.22698295</real>
-			<key>timeStoppedRecording</key>
-			<real>658498966.66479099</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>EB1A5217-126B-47CF-963B-414DB007629E</string>
-		</dict>
-		<key>F838ABA6-9E3A-48E1-A311-1E15E4BA41CA</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F838ABA6-9E3A-48E1-A311-1E15E4BA41CA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658497565.40133405</real>
-			<key>timeStoppedRecording</key>
-			<real>658497607.38555896</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>F838ABA6-9E3A-48E1-A311-1E15E4BA41CA</string>
-		</dict>
-		<key>FF491AF2-17A8-4714-AE28-A452B6837F78</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FF491AF2-17A8-4714-AE28-A452B6837F78.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658491820.98825204</real>
-			<key>timeStoppedRecording</key>
-			<real>658491908.45984995</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>FF491AF2-17A8-4714-AE28-A452B6837F78</string>
+			<string>FCFCD9AE-8AE0-48DE-9F1A-AB28999ADAE6</string>
 		</dict>
 	</dict>
 </dict>

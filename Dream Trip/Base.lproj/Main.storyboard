@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6I2-Cz-pmU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -23,15 +24,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl0-I4-MZr">
-                                <rect key="frame" x="305" y="147" width="89" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="下一頁"/>
-                                <connections>
-                                    <segue destination="rag-Bh-d1u" kind="show" id="B4p-GV-Oka"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DhQ-iR-qou">
                                 <rect key="frame" x="20" y="369" width="374" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,6 +47,15 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl0-I4-MZr">
+                                <rect key="frame" x="273" y="152" width="129" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="facebook" title="下一頁"/>
+                                <connections>
+                                    <segue destination="rag-Bh-d1u" kind="show" id="B4p-GV-Oka"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1TH-ai-tTI"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qd5-4r-7wY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1873.913043478261" y="-546.42857142857144"/>
+            <point key="canvasLocation" x="1718.840579710145" y="-1989.5089285714284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XEe-4L-n3Z">
@@ -107,7 +108,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdC-Ep-eHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="-546"/>
+            <point key="canvasLocation" x="796" y="-1989"/>
         </scene>
         <!--尋找景點-->
         <scene sceneID="u7E-cq-XvI">
@@ -123,19 +124,19 @@
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xgu-t3-gku"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="尋找景點" id="yvY-Tz-7xt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOt-M7-QQu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860.8695652173915" y="188.83928571428569"/>
+            <point key="canvasLocation" x="1706" y="-556"/>
         </scene>
         <!--尋找景點-->
         <scene sceneID="sXf-GM-bJY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a07-pG-r7i" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="尋找景點" image="map" id="k8R-zQ-VHW"/>
+                    <tabBarItem key="tabBarItem" title="尋找景點" image="search" id="k8R-zQ-VHW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Do-ml-l79">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -149,7 +150,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zY-rt-lvf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950.72463768115949" y="188.83928571428569"/>
+            <point key="canvasLocation" x="796" y="-556"/>
         </scene>
         <!--我的旅程-->
         <scene sceneID="cdh-6h-Y8F">
@@ -177,13 +178,13 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jh4-Ms-mSD"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="我的旅程" id="ayD-En-3Lj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bgs-NC-agy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1848" y="1003"/>
+            <point key="canvasLocation" x="1706" y="978"/>
         </scene>
         <!--居家監控-->
         <scene sceneID="hsK-Tc-EAT">
@@ -211,13 +212,13 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mfY-At-2v4"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="居家監控" id="Aap-0j-2hc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Kv-fg-w2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1861" y="1743"/>
+            <point key="canvasLocation" x="1706" y="2392"/>
         </scene>
         <!--我的旅程-->
         <scene sceneID="5Hq-AY-gnE">
@@ -237,7 +238,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0F-gi-744" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="1003"/>
+            <point key="canvasLocation" x="796" y="978"/>
         </scene>
         <!--居家監控-->
         <scene sceneID="WYA-D2-prn">
@@ -257,7 +258,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhA-QS-3Qx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="1743"/>
+            <point key="canvasLocation" x="796" y="2392"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n7g-Vg-VEb">
@@ -282,7 +283,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ai7-LI-UpO" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2891" y="-546"/>
+            <point key="canvasLocation" x="2735" y="-1989"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gBn-Qq-i0Q">
@@ -301,13 +302,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c2s-jA-0Oq"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="nFB-fq-MGV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zbs-DH-Ryw" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2890" y="189"/>
+            <point key="canvasLocation" x="4193" y="-556"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4bQ-BB-GKt">
@@ -326,13 +327,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kbD-kq-Py3"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="M7t-cY-PTf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZw-HF-qgB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2890" y="1002"/>
+            <point key="canvasLocation" x="2748" y="978"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iZj-mM-gc4">
@@ -351,13 +352,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="52y-MA-7Er"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ULu-PS-RKM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vje-l0-xOx" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2889.8550724637685" y="1741.7410714285713"/>
+            <point key="canvasLocation" x="2735" y="2391"/>
         </scene>
         <!--更多-->
         <scene sceneID="0u4-1k-CcD">
@@ -377,7 +378,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOc-OC-HeY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1162" y="3376"/>
+            <point key="canvasLocation" x="806" y="3785"/>
         </scene>
         <!--更多-->
         <scene sceneID="8fY-uZ-dYs">
@@ -392,7 +393,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" textLabel="pOS-Pn-gwF" rowHeight="60" style="IBUITableViewCellStyleDefault" id="xW5-Sl-XE0">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="pOS-Pn-gwF" rowHeight="60" style="IBUITableViewCellStyleDefault" id="xW5-Sl-XE0">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xW5-Sl-XE0" id="UvV-zM-7qu">
@@ -437,18 +438,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NlZ-g7-K0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204.34782608695653" y="3375.6696428571427"/>
+            <point key="canvasLocation" x="1764" y="3785"/>
         </scene>
-        <!--MoreVC1-->
+        <!--MoreVC0-->
         <scene sceneID="fXu-mQ-N6H">
             <objects>
-                <viewController id="RYk-1Y-R6q" customClass="MoreVC1" customModule="Dream_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RYk-1Y-R6q" customClass="MoreVC0" customModule="Dream_Trip" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U9o-0d-xNP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xu7-AE-RKp">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="零" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xu7-AE-RKp">
+                                <rect key="frame" x="193" y="88" width="31" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -466,7 +467,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KTQ-Yh-j9T" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2248" y="4367"/>
+            <point key="canvasLocation" x="-281" y="4777"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ydi-bw-xrb">
@@ -476,8 +477,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUd-2Y-gpl">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="二" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUd-2Y-gpl">
+                                <rect key="frame" x="193" y="88" width="31" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -491,7 +492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRw-UO-3e4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="4367"/>
+            <point key="canvasLocation" x="1764" y="4777"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6QA-y7-Lz5">
@@ -501,8 +502,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEE-8a-bcd">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEE-8a-bcd">
+                                <rect key="frame" x="193" y="88" width="31" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -516,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdR-dp-mLB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1268" y="4367"/>
+            <point key="canvasLocation" x="699" y="4777"/>
         </scene>
         <!--關於-->
         <scene sceneID="kJX-vz-5v9">
@@ -554,13 +555,13 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dAI-FD-Psf"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="關於" id="C7Q-pu-g7v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyE-AA-33W" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718.84057971014499" y="4366.7410714285716"/>
+            <point key="canvasLocation" x="2686" y="4777"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rq3-Qy-1l7">
@@ -570,8 +571,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第四頁之一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BY-gb-WXk">
-                                <rect key="frame" x="132" y="88" width="152" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="四" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BY-gb-WXk">
+                                <rect key="frame" x="193" y="88" width="31" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -585,9 +586,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nr8-0s-j6a" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1675" y="4367"/>
+            <point key="canvasLocation" x="3641" y="4777"/>
         </scene>
-        <!--Facebook-->
+        <!--View Controller-->
         <scene sceneID="RwS-pA-GrK">
             <objects>
                 <viewController id="3qd-2F-VEU" sceneMemberID="viewController">
@@ -595,22 +596,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="yMk-fl-RNg"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Facebook" id="AFu-Wk-MxW"/>
+                    <navigationItem key="navigationItem" id="AFu-Wk-MxW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9L8-nO-sI8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457" y="4367"/>
+            <point key="canvasLocation" x="4425" y="4777"/>
         </scene>
     </scenes>
     <resources>
         <image name="appicon" width="1024" height="1024"/>
-        <image name="ellipsis" width="32" height="32"/>
-        <image name="explore" width="24" height="24"/>
-        <image name="map" width="24" height="24"/>
-        <image name="monitor" width="24" height="24"/>
-        <image name="trip" width="24" height="24"/>
+        <image name="ellipsis" width="25" height="25"/>
+        <image name="explore" width="25" height="25"/>
+        <image name="facebook" width="32" height="32"/>
+        <image name="monitor" width="25" height="25"/>
+        <image name="search" width="25" height="25"/>
+        <image name="trip" width="25" height="25"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

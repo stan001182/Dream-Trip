@@ -16,7 +16,7 @@
 		E35A9F7F27302ABC00A0F4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F7E27302ABC00A0F4DC /* Assets.xcassets */; };
 		E35A9F8227302ABC00A0F4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35A9F8027302ABC00A0F4DC /* LaunchScreen.storyboard */; };
 		E3ABE190273EB46400752B56 /* MoreVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABE18F273EB46400752B56 /* MoreVC2.swift */; };
-		E3B14691273BBADB00CE7192 /* MoreVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B14690273BBADB00CE7192 /* MoreVC1.swift */; };
+		E3B14691273BBADB00CE7192 /* MoreVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B14690273BBADB00CE7192 /* MoreVC0.swift */; };
 		E3D169BB273ABB1A00788B3D /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D169BA273ABB1A00788B3D /* MoreVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 		E35A9F8127302ABC00A0F4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35A9F8327302ABC00A0F4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3ABE18F273EB46400752B56 /* MoreVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC2.swift; sourceTree = "<group>"; };
-		E3B14690273BBADB00CE7192 /* MoreVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC1.swift; sourceTree = "<group>"; };
+		E3B14690273BBADB00CE7192 /* MoreVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC0.swift; sourceTree = "<group>"; };
 		E3D169BA273ABB1A00788B3D /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +71,7 @@
 				E36CA14F2739180100330C8A /* view */,
 				E36CA14E273917CA00330C8A /* resoure */,
 				E35A9F8327302ABC00A0F4DC /* Info.plist */,
+				E3ABE18F273EB46400752B56 /* MoreVC2.swift */,
 				E32B69A6273FBDAB00A195A9 /* MoreVC6.swift */,
 			);
 			path = "Dream Trip";
@@ -80,8 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				E3D169BA273ABB1A00788B3D /* MoreVC.swift */,
-				E3B14690273BBADB00CE7192 /* MoreVC1.swift */,
-				E3ABE18F273EB46400752B56 /* MoreVC2.swift */,
+				E3B14690273BBADB00CE7192 /* MoreVC0.swift */,
 			);
 			name = more;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 				E35A9F7A27302ABB00A0F4DC /* ViewController.swift in Sources */,
 				E3D169BB273ABB1A00788B3D /* MoreVC.swift in Sources */,
 				E32B69A7273FBDAB00A195A9 /* MoreVC6.swift in Sources */,
-				E3B14691273BBADB00CE7192 /* MoreVC1.swift in Sources */,
+				E3B14691273BBADB00CE7192 /* MoreVC0.swift in Sources */,
 				E35A9F7627302ABB00A0F4DC /* AppDelegate.swift in Sources */,
 				E35A9F7827302ABB00A0F4DC /* SceneDelegate.swift in Sources */,
 				E3ABE190273EB46400752B56 /* MoreVC2.swift in Sources */,
@@ -381,7 +381,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XD4MD88FJR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dream Trip/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
@@ -392,7 +392,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XD4MD88FJR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dream Trip/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "是否允許此App定位此使用者的位置";
@@ -424,7 +424,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

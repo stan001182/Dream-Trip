@@ -28,6 +28,7 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
         ("info", "關於"),
         ("contact", "與我們聯絡"),
         ("facebook", "Facebook粉絲頁"),
+        ("instagram", "Instagram粉絲頁"),
         ]
         
         override func viewDidLoad() {
@@ -46,7 +47,7 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
 
         
          func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
             
             //cell.imageView?.image = UIImage(systemName: moreList[indexPath.row].0)
             cell.imageView?.image = UIImage(named: moreList[indexPath.row].0)
@@ -62,12 +63,17 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
         }
         
          func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-            return "目前版本"
+            return "目前版本1.0.0"
         }
         
          func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
              if indexPath.row == 1{
-                 let activityViewController = UIActivityViewController(activityItems: ["我想要與您分享此款好用的APP！! 這裡放app下載的URL"], applicationActivities: nil)
+                 let textToShare = "我想要與您分享此款好用的APP！!"
+                 let imageToShare = UIImage(named: "dog1.jpeg")!
+                 let urlToShare = URL(string:"https://www.google.com")!
+                 let activityItems:[Any] = [textToShare,imageToShare,urlToShare] //as [Any]
+                 //Heterogeneous collection literal could only be inferred to '[Any]'; add explicit type annotation if this is intentional
+                 let activityViewController = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
                  self.present(activityViewController, animated: true, completion: nil)
              }
              else if indexPath.row == 4{
@@ -83,7 +89,12 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
                  self.present(composer, animated: true)
                  }
              else if indexPath.row == 5{
-                 if let url = URL(string:"https://www.facebook.com/"){
+                 if let url = URL(string:"https://www.facebook.com"){
+                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                 }
+             }
+             else if indexPath.row == 6{
+                 if let url = URL(string:"https://www.instagram.com"){
                      UIApplication.shared.open(url, options: [:], completionHandler: nil)
                  }
              }
