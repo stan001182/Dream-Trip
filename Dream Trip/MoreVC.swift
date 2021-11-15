@@ -97,6 +97,10 @@ class MoreVC: UIViewController, UITableViewDataSource, UITableViewDelegate,MFMai
                  if let url = URL(string:"https://www.instagram.com"){
                      UIApplication.shared.open(url, options: [:], completionHandler: nil)
                  }
+                 //不開啟safari的方式要 import SafariServices
+//            let vc = SFSafariViewController(url: URL(string:"https://www.instagram.com")!)
+                 //show(vc, sender: self)//----method1
+                 //present(vc, animated: true, completion: nil)//----method2
              }
              else{
                      self.performSegue(withIdentifier: String(indexPath.row), sender: nil)
