@@ -396,10 +396,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aJW-kO-7vo">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aJW-kO-7vo">
                                 <rect key="frame" x="0.0" y="251" width="414" height="562"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="ZjD-n0-B9M"/>
+                                    <constraint firstAttribute="height" constant="562" id="pOP-JD-Kc8"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="pOS-Pn-gwF" rowHeight="60" style="IBUITableViewCellStyleDefault" id="xW5-Sl-XE0">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="60"/>
@@ -416,7 +419,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
@@ -426,13 +429,25 @@
                                     <outlet property="delegate" destination="tUY-A2-4Mo" id="6lO-DP-o32"/>
                                 </connections>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon_empty_bg" translatesAutoresizingMaskIntoConstraints="NO" id="tsv-cK-OyD">
-                                <rect key="frame" x="143" y="102" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon_empty_bg" translatesAutoresizingMaskIntoConstraints="NO" id="tsv-cK-OyD">
+                                <rect key="frame" x="0.0" y="102" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="29W-bh-XAR"/>
+                                    <constraint firstAttribute="width" constant="414" id="bMh-bF-79v"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PKd-wU-RdX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tsv-cK-OyD" firstAttribute="leading" secondItem="PKd-wU-RdX" secondAttribute="leading" id="2p1-qW-LhY"/>
+                            <constraint firstItem="aJW-kO-7vo" firstAttribute="leading" secondItem="PKd-wU-RdX" secondAttribute="leading" id="LCE-r5-jJG"/>
+                            <constraint firstItem="aJW-kO-7vo" firstAttribute="top" secondItem="PKd-wU-RdX" secondAttribute="top" constant="163" id="RIF-jh-alf"/>
+                            <constraint firstItem="tsv-cK-OyD" firstAttribute="top" secondItem="PKd-wU-RdX" secondAttribute="top" constant="14" id="hx2-ef-pIS"/>
+                            <constraint firstItem="PKd-wU-RdX" firstAttribute="bottom" secondItem="aJW-kO-7vo" secondAttribute="bottom" id="jzh-Qd-Fsn"/>
+                            <constraint firstItem="PKd-wU-RdX" firstAttribute="trailing" secondItem="aJW-kO-7vo" secondAttribute="trailing" id="kkY-IS-54a"/>
+                            <constraint firstItem="PKd-wU-RdX" firstAttribute="trailing" secondItem="tsv-cK-OyD" secondAttribute="trailing" id="rCL-xe-onW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="更多" id="5hz-KN-Ddt"/>
                     <connections>
@@ -446,7 +461,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NlZ-g7-K0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="3785"/>
+            <point key="canvasLocation" x="1763.7681159420292" y="3784.8214285714284"/>
         </scene>
         <!--MoreVC0-->
         <scene sceneID="fXu-mQ-N6H">
@@ -535,16 +550,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="關於Dream Trip" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRE-7J-OYS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="關於Dream Trip" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gRE-7J-OYS">
                                 <rect key="frame" x="20" y="98" width="374" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Hy1-sR-Cgf"/>
+                                    <constraint firstAttribute="width" constant="374" id="LhW-6N-Cax"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQV-o2-wm6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HQV-o2-wm6">
                                 <rect key="frame" x="20" y="171" width="374" height="632"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="5vN-pk-lHn"/>
+                                    <constraint firstAttribute="height" constant="632" id="SnB-or-itC"/>
+                                </constraints>
                                 <string key="text">近年來由於社群媒體的發達，許多人尤其是年輕一輩，似乎對於到各個景點或是秘境拍照打卡蔚為瘋狂，促使著整個旅遊休閒的需求與日俱增，因此想設計一個可以幫助大家對旅遊規劃記事功能的app。我們希望還能幫助大家隨時監控家裡狀態，讓大家可以放心的旅遊。
 
 
@@ -564,12 +585,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dAI-FD-Psf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dAI-FD-Psf" firstAttribute="trailing" secondItem="gRE-7J-OYS" secondAttribute="trailing" constant="20" id="0LB-S4-qQ8"/>
+                            <constraint firstItem="gRE-7J-OYS" firstAttribute="top" secondItem="dAI-FD-Psf" secondAttribute="top" constant="10" id="4W2-Ou-3dM"/>
+                            <constraint firstItem="dAI-FD-Psf" firstAttribute="bottom" secondItem="gRE-7J-OYS" secondAttribute="bottom" constant="650" id="CEY-TE-xfK"/>
+                            <constraint firstItem="HQV-o2-wm6" firstAttribute="top" secondItem="dAI-FD-Psf" secondAttribute="top" constant="83" id="QbW-JW-1vg"/>
+                            <constraint firstItem="gRE-7J-OYS" firstAttribute="leading" secondItem="dAI-FD-Psf" secondAttribute="leading" constant="20" id="Ups-6f-ZKO"/>
+                            <constraint firstItem="dAI-FD-Psf" firstAttribute="bottom" secondItem="HQV-o2-wm6" secondAttribute="bottom" constant="10" id="Vqs-37-eQA"/>
+                            <constraint firstItem="HQV-o2-wm6" firstAttribute="leading" secondItem="dAI-FD-Psf" secondAttribute="leading" constant="20" id="hBf-Ol-WgJ"/>
+                            <constraint firstItem="dAI-FD-Psf" firstAttribute="trailing" secondItem="HQV-o2-wm6" secondAttribute="trailing" constant="20" id="qtO-8e-yK6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="關於" id="C7Q-pu-g7v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyE-AA-33W" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2686" y="4777"/>
+            <point key="canvasLocation" x="2685.507246376812" y="4776.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rq3-Qy-1l7">

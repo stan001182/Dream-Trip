@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>32896C43-02DB-411C-94EB-0FC91496A586</key>
+		<key>2A9B5749-846F-4689-9E37-E575C1DD0CA4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
 			<key>fileName</key>
-			<string>32896C43-02DB-411C-94EB-0FC91496A586.xcactivitylog</string>
+			<string>2A9B5749-846F-4689-9E37-E575C1DD0CA4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,149 +32,13 @@
 			<key>signature</key>
 			<string>Dream Trip Build Preparation</string>
 			<key>timeStartedRecording</key>
-			<real>658669972.81687498</real>
+			<real>658714905.23484397</real>
 			<key>timeStoppedRecording</key>
-			<real>658669972.82735002</real>
+			<real>658714905.25000298</real>
 			<key>title</key>
 			<string>Dream Trip Build Preparation</string>
 			<key>uniqueIdentifier</key>
-			<string>32896C43-02DB-411C-94EB-0FC91496A586</string>
-		</dict>
-		<key>462B4F31-6627-4481-BF66-93CCB7F03B3C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
-			<key>fileName</key>
-			<string>462B4F31-6627-4481-BF66-93CCB7F03B3C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Dream Trip Build Preparation</string>
-			<key>timeStartedRecording</key>
-			<real>658665088.911731</real>
-			<key>timeStoppedRecording</key>
-			<real>658665089.05722904</real>
-			<key>title</key>
-			<string>Dream Trip Build Preparation</string>
-			<key>uniqueIdentifier</key>
-			<string>462B4F31-6627-4481-BF66-93CCB7F03B3C</string>
-		</dict>
-		<key>4F107E58-3E8B-4113-98C8-A06D1CB5B399</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
-			<key>fileName</key>
-			<string>4F107E58-3E8B-4113-98C8-A06D1CB5B399.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Workspace Build Description</string>
-			<key>timeStartedRecording</key>
-			<real>658669972.69107902</real>
-			<key>timeStoppedRecording</key>
-			<real>658669972.81902206</real>
-			<key>title</key>
-			<string>Workspace Build Description</string>
-			<key>uniqueIdentifier</key>
-			<string>4F107E58-3E8B-4113-98C8-A06D1CB5B399</string>
-		</dict>
-		<key>A9431E2C-B6DD-49EE-8F66-FDA30C7D4229</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
-			<key>fileName</key>
-			<string>A9431E2C-B6DD-49EE-8F66-FDA30C7D4229.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Dream Trip Build Description</string>
-			<key>timeStartedRecording</key>
-			<real>658669972.69132102</real>
-			<key>timeStoppedRecording</key>
-			<real>658669972.81544101</real>
-			<key>title</key>
-			<string>Dream Trip Build Description</string>
-			<key>uniqueIdentifier</key>
-			<string>A9431E2C-B6DD-49EE-8F66-FDA30C7D4229</string>
-		</dict>
-		<key>D7FAAF51-B562-4C41-95B2-B7EA6EEB51CC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
-			<key>fileName</key>
-			<string>D7FAAF51-B562-4C41-95B2-B7EA6EEB51CC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Index Build</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Workspace Build Description</string>
-			<key>timeStartedRecording</key>
-			<real>658669972.51493597</real>
-			<key>timeStoppedRecording</key>
-			<real>658669972.68240404</real>
-			<key>title</key>
-			<string>Workspace Build Description</string>
-			<key>uniqueIdentifier</key>
-			<string>D7FAAF51-B562-4C41-95B2-B7EA6EEB51CC</string>
+			<string>2A9B5749-846F-4689-9E37-E575C1DD0CA4</string>
 		</dict>
 	</dict>
 </dict>
