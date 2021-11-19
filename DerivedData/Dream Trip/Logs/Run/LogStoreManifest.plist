@@ -5,41 +5,6 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>ACCE799F-9012-4C44-AA2D-78B28A4F691C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>ACCE799F-9012-4C44-AA2D-78B28A4F691C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Dream Trip project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Dream Trip</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run Dream Trip</string>
-			<key>timeStartedRecording</key>
-			<real>658715115.17176294</real>
-			<key>timeStoppedRecording</key>
-			<real>658715163.89798295</real>
-			<key>title</key>
-			<string>Run Dream Trip</string>
-			<key>uniqueIdentifier</key>
-			<string>ACCE799F-9012-4C44-AA2D-78B28A4F691C</string>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

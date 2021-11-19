@@ -421,7 +421,6 @@
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -433,7 +432,6 @@
                                 <rect key="frame" x="0.0" y="102" width="414" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="29W-bh-XAR"/>
-                                    <constraint firstAttribute="width" constant="414" id="bMh-bF-79v"/>
                                 </constraints>
                             </imageView>
                         </subviews>

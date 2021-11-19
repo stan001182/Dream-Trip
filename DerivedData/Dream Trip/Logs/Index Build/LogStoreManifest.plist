@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2A9B5749-846F-4689-9E37-E575C1DD0CA4</key>
+		<key>C16B5098-AD7C-4AA6-9983-1A94E7D680FE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
 			<key>fileName</key>
-			<string>2A9B5749-846F-4689-9E37-E575C1DD0CA4.xcactivitylog</string>
+			<string>C16B5098-AD7C-4AA6-9983-1A94E7D680FE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Dream Trip Build Preparation</string>
 			<key>timeStartedRecording</key>
-			<real>658714905.23484397</real>
+			<real>658979210.42243195</real>
 			<key>timeStoppedRecording</key>
-			<real>658714905.25000298</real>
+			<real>658979210.57420194</real>
 			<key>title</key>
 			<string>Dream Trip Build Preparation</string>
 			<key>uniqueIdentifier</key>
-			<string>2A9B5749-846F-4689-9E37-E575C1DD0CA4</string>
+			<string>C16B5098-AD7C-4AA6-9983-1A94E7D680FE</string>
 		</dict>
 	</dict>
 </dict>
